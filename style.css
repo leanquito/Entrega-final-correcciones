@@ -7,27 +7,37 @@
 
 
 /*index.html*/
-.circle1{
-	background-color: white;
-	transition: all 2s ease-in;
-}
-.circle2{
-	background-color: white;
-	transition: all 2s ease-in;
+
+.index{
+
+	background-image: url("./fotos/index.jpg");
+	background-size: 100% 100% ;
+	height: 800px;
+
 
 }
-.circle3{
+.circlepadre{
+
+}
+.circle1, .circle2, .circle3, .circle4{
+	width: 35px;
+	height: 35px;
+	border-radius: 8%;
+	margin: 12px;
+}
+.circle1{
 	background-color: white;
-	transition: all 2s ease-in;
+}
+	.circle2{
+	background-color: white;
+
+}
+	.circle3{
+		background-color: white;
 }
 .circle4{
 	background-color: white ;
-	transition: all 2s ease-in;
 }
-.navindex.circle:hover .circle1,
-.navindex.circle:hover .circle2,
-.navindex.circle:hover .circle3,
-.navindex.circle:hover .circle4,
 
 
 
@@ -36,7 +46,49 @@
 .barra-navegacion-general{
 	font-size: 25px;
 	background: rgb(126,65,117);
+	background: rgb(126,65,117);
 	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
+}
+
+/*biografia*/
+
+.contenedor-discos {
+	display: flex;
+	padding: 10px;
+	margin: 10px 10px 170px;
+}
+
+.contenedor-discos ul{
+	padding: 0 25px;
+
+}
+.contenedor-discos img{
+	width: 300px;
+
+}
+
+
+/*titulo*/
+
+
+
+
+
+
+
+
+
+.imgholamundo{
+	float: left;
+	margin-right: 10px;
+}
+
+.imagen-texto{
+	padding: 20px 330px;
+}
+
+.imagen-texto p{
+	color: #000;
 }
 
 
@@ -74,14 +126,19 @@
 @media screen and (max-width: 768px){
 	.carrusel img {
 		width: 100%;
-	}
 
+	}
+}
 .multimediatitulo{
 	font-size: 30px;
 	padding: 5%;
 	background: rgb(126,65,117);
 	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
+
+
+
 }
+
 
 /*noticias*/
 
@@ -95,20 +152,8 @@ article{
 .news p{
 	padding: 10px;
 	color: #000
-}
-.imagen-texto{
-	padding: 20px 330px;
-}
 
-/*biografia*/
-.imagen-texto{
-	padding: 20px 330px;
 }
-
-.imagen-texto p{
-	color: #000;
-}
-
 
 
  /*div{
@@ -119,6 +164,27 @@ article{
  */	
 
 
+
+
+
+nav ul li {
+	display: inline-block;
+	margin: 5%;
+	border: solid #604 3px ;
+	color: #604;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+
+.imagenes.caja{
+	border: #a41 solid 3px;
+	border-image-width: 53px;
+
+}
 
 
 
