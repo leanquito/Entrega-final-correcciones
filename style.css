@@ -72,16 +72,6 @@
 	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
 }
 
-/*biografia*/
-.imagen-texto{
-	padding: 20px 330px;
-}
-
-.imagen-texto p{
-	color: #000;
-}
-
-
 
 /*discos*/
 .titulo{
@@ -132,6 +122,16 @@ article{
 	padding: 10px;
 	color: #000
 }
+
+/*biografia*/
+.imagen-texto{
+	padding: 20px 330px;
+}
+
+.imagen-texto p{
+	color: #000;
+}
+
 
 /*footer*/
 .pie{
