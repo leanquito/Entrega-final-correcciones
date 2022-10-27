@@ -7,82 +7,73 @@
 
 
 /*index.html*/
-
-.index{
-
-	background-image: url("./fotos/index.jpg");
-	background-size: 100% 100% ;
-	height: 800px;
-
-
-}
-.circlepadre{
-
-}
-.circle1, .circle2, .circle3, .circle4{
-	width: 35px;
-	height: 35px;
-	border-radius: 8%;
-	margin: 12px;
-}
 .circle1{
 	background-color: white;
+	transition: all 2s ease-in;
 }
 	.circle2{
 	background-color: white;
-
+	transition: all 2s ease-in;
 }
 	.circle3{
 		background-color: white;
+		transition: all 2s ease-in;
 }
 .circle4{
 	background-color: white ;
+	transition: all 2s ease-in;
+}
+.circle:hover .circle1,
+.circle:hover .circle2,
+.circle:hover .circle3,
+.circle:hover .circle4,
+
+
+/*discos*/
+.titulo{
+	font-size: 50px;
+	padding: 5%;
+	background: rgb(126,65,117);
+	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
+
+}
+.discos{
+	padding: 0 5% 10% 5%;
 }
 
+.discos img{
+	width: 100%;
+}
 
+/*multimedia*/
+.multimedia{
+	padding: 0 10px;
 
+}
+.carrusel{
+	margin: auto;
+	padding: 5% 0 20%;
+}
+@media screen and (max-width: 768px){
+	.carrusel img {
+		width: 100%;
+	}
+}
+.multimediatitulo{
+	font-size: 25px;
+	padding: 5%;
+	background: rgb(126,65,117);
+	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
+}
 
 /*barra navegacion general*/
 .barra-navegacion-general{
 	font-size: 25px;
 	background: rgb(126,65,117);
-	background: rgb(126,65,117);
 	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
 }
 
 /*biografia*/
-
-.contenedor-discos {
-	display: flex;
-	padding: 10px;
-	margin: 10px 10px 170px;
-}
-
-.contenedor-discos ul{
-	padding: 0 25px;
-
-}
-.contenedor-discos img{
-	width: 300px;
-
-}
-
-
-/*titulo*/
-
-
-
-
-
-
-
-
-
-.imgholamundo{
-	float: left;
-	margin-right: 10px;
-}
-
 .imagen-texto{
 	padding: 20px 330px;
 }
@@ -103,8 +94,6 @@
 }
 .discos{
 	padding: 0 5% 10% 5%;
-
-
 }
 
 .discos img{
@@ -115,18 +104,14 @@
 /*multimedia*/
 .multimedia{
 	padding: 0 10px;
-
 }
 .carrusel{
 	margin: auto;
 	padding: 5% 0 20%;
-	
-
 }
 @media screen and (max-width: 768px){
 	.carrusel img {
 		width: 100%;
-
 	}
 }
 .multimediatitulo{
@@ -134,14 +119,10 @@
 	padding: 5%;
 	background: rgb(126,65,117);
 	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
-
-
-
 }
 
 
 /*noticias*/
-
 .news img{
 	float: left;
 }
@@ -152,7 +133,6 @@ article{
 .news p{
 	padding: 10px;
 	color: #000
-
 }
 
 
@@ -163,48 +143,11 @@ article{
  	font-size: 4px;
  */	
 
-
-
-
-
-nav ul li {
-	display: inline-block;
-	margin: 5%;
-	border: solid #604 3px ;
-	color: #604;
-}
-
-a{
-	text-decoration: none;
-
-}
-
-
-.imagenes.caja{
-	border: #a41 solid 3px;
-	border-image-width: 53px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*pie pagina*/
-
+/*footer*/
 .pie{
 	width: 100%;
 	max-width: 120%;
 	height: 50%;
-
-	
 }
 
 .pie .grupo1{
@@ -220,7 +163,6 @@ a{
 	.pie .grupo1 { 
 		grid-template-columns: none;
 		grid-template-rows: repeat(3, 1fr);
-
 	}
 }
 
