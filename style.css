@@ -25,7 +25,9 @@
 .circle:hover .circle1,
 .circle:hover .circle2,
 .circle:hover .circle3,
-.circle:hover .circle4,
+.circle:hover .circle4,{
+	transform: translateY(10px);
+}
 
 
 /*discos*/
