@@ -17,6 +17,32 @@
 
 }
 
+.circle1, .circle2, .circle3, .circle4{
+	width: 35px;
+	height: 35px;
+	border-radius: 8%;
+	margin: 12px;
+}
+.circle1{
+	background-color: white;
+	transition: all 2s ease-in;
+}
+	.circle2{
+	background-color: white;
+
+}
+	.circle3{
+		background-color: white;
+}
+.circle4{
+	background-color: white ;
+}
+.circle:hover .circle1,
+.circle:hover .circle2,
+.circle:hover .circle3,
+.circle:hover .circle4,
+
+
 
 
 /*barra navegacion general*/
@@ -100,15 +126,15 @@
 	
 
 }
-	@media screen and (max-width: 768px){
-		.carrusel img {
-			width: 100%;
+@media screen and (max-width: 768px){
+	.carrusel img {
+		width: 100%;
 
-		}
+	}
 }
-	.multimediatitulo{
-		font-size: 30px;
-		padding: 5%;
+.multimediatitulo{
+	font-size: 30px;
+	padding: 5%;
 	background: rgb(126,65,117);
 	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
 
