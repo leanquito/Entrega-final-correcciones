@@ -84,6 +84,10 @@
 
 }
 
+.discos img{
+	width: 100%;
+}
+
 
 /*multimedia*/
 .multimedia{
@@ -91,7 +95,24 @@
 
 }
 .carrusel{
-	margin: 10px 0 100px 0;
+	margin: auto;
+	padding: 5% 0 20%;
+	
+
+}
+	@media screen and (max-width: 768px){
+		.carrusel img {
+			width: 100%;
+
+		}
+}
+	.multimediatitulo{
+		font-size: 30px;
+		padding: 5%;
+	background: rgb(126,65,117);
+	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
+
+
 
 }
 
