@@ -2,7 +2,6 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
-
 }
 
 
@@ -11,13 +10,13 @@
 	background-color: white;
 	transition: all 2s ease-in;
 }
-	.circle2{
+.circle2{
 	background-color: white;
 	transition: all 2s ease-in;
 }
-	.circle3{
-		background-color: white;
-		transition: all 2s ease-in;
+.circle3{
+	background-color: white;
+	transition: all 2s ease-in;
 }
 .circle4{
 	background-color: white ;
@@ -35,7 +34,6 @@
 	padding: 5%;
 	background: rgb(126,65,117);
 	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
-
 }
 .discos{
 	padding: 0 5% 10% 5%;
@@ -48,7 +46,6 @@
 /*multimedia*/
 .multimedia{
 	padding: 0 10px;
-
 }
 .carrusel{
 	margin: auto;
@@ -90,7 +87,6 @@
 	padding: 5%;
 	background: rgb(126,65,117);
 	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
-
 }
 .discos{
 	padding: 0 5% 10% 5%;
@@ -134,14 +130,6 @@ article{
 	padding: 10px;
 	color: #000
 }
-
-
- /*div{
-	font-family: 'Josefin Sans', sans-serif;
- 	font-family: cursive;
- 	font-family: 
- 	font-size: 4px;
- */	
 
 /*footer*/
 .pie{
