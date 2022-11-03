@@ -123,6 +123,27 @@ article{
 	color: #000
 }
 
+.news{
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 300px;
+}
+
+	.newsflex: first-child{
+		display: flex;
+
+}
+	.newsflex{
+		flex: 1;
+		padding: 25px;
+		margin: 20px;
+}
+	.newsflex div{
+		padding: 25px;
+		margin: 20px;
+
+}
+
 /*biografia*/
 .imagen-texto{
 	padding: 20px 330px;
@@ -131,7 +152,6 @@ article{
 .imagen-texto p{
 	color: #000;
 }
-
 
 /*footer*/
 .pie{
