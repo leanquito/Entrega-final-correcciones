@@ -111,6 +111,7 @@
 
 
 /*noticias*/
+/*
 .news img{
 	float: left;
 }
@@ -122,7 +123,7 @@ article{
 	padding: 10px;
 	color: #000
 }
-
+*/
 .news{
 	flex: 1;
 	display: flex;
