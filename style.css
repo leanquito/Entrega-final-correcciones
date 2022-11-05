@@ -145,6 +145,10 @@ article{
 		margin: 10px;
 
 }
+.newsflex p{
+	padding: 10px;
+	color: #000
+}
 
 /*biografia*/
 .imagen-texto{
