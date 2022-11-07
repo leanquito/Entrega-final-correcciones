@@ -140,10 +140,10 @@ a {
 	}
 }
 .multimediatitulo{
-	font-size: 25px;
+	font-size: 40px;
 	padding: 5%;
-	background: rgb(84,69,123);
-	background: linear-gradient(90deg, rgba(84,69,123,1) 0%, rgba(64,83,123,1) 0%, rgba(65,72,126,1) 39%, rgba(30,26,71,1) 100%, rgba(8,160,203,1) 100%, rgba(0,212,255,1) 100%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
+	background: rgb(126,65,117);
+	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
 }
 
 /*barra navegacion general*/
@@ -156,7 +156,7 @@ a {
 
 /*discos*/
 .titulo{
-	font-size: 50px;
+	font-size: 40px;
 	padding: 5%;
 	background: rgb(126,65,117);
 	background: linear-gradient(90deg, rgba(126,65,117,1) 0%, rgba(120,124,183,1) 0%, rgba(0,212,255,1) 97%, rgba(160,200,196,1) 100%, rgba(75,39,168,1) 100%, rgba(28,179,224,1) 100%);
