@@ -2,3 +2,5 @@ Buenas Tardes
 
 Apliqué el uso de variables de tipo "color" y "letra" en los diferentes componentes del archivo como pueden ver.
 Tambien cree un mixin con parametros sin valores, con su paquete de propiedades listo para ser aplicado.
+el material se encuentra en la carpeta styles.
+
