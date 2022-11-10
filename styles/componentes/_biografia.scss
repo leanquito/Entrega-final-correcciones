@@ -1,0 +1,23 @@
+/*biografia*/
+.biografia{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 40px;
+	padding: 20px;
+}
+.biografia div .textobiografia{
+	min-width: 350px;
+}
+.biografia div .textobiografia h1{
+	color: $secondaryColor;
+}
+.biografia div .textobiografia p{
+	color: $secondaryColor;
+	font-family: $fontPrimari;
+}
+.biografia div img{
+	width: 30%;
+	position: relative;
+}
