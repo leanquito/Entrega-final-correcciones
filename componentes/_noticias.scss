@@ -1,0 +1,26 @@
+/*noticias*/
+.noticias{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 10px;
+	padding: 10px;
+}
+.noticias div .textnews{
+	width: 350px;
+}
+.noticias div .textnews h3{
+	color: $secondaryColor;
+	font-family: $fontPrimari;
+
+}
+.noticias div .textnews p{
+	color: $secondaryColor;
+	font-family: $fontPrimari;
+}
+
+.noticias img{
+	width: 100%;
+	position: relative;
+}
