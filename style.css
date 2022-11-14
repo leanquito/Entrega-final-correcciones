@@ -111,6 +111,13 @@ a {
   font-weight: bold;
 }
 
+/*barra navegacion general*/
+.barra-navegacion-general {
+  font-size: 25px;
+  background: rgb(126, 65, 117) linear-gradient(90deg, rgb(126, 65, 117) 0%, rgb(120, 124, 183) 0%, rgb(0, 212, 255) 97%, rgb(160, 200, 196) 100%, rgb(75, 39, 168) 100%, rgb(28, 179, 224) 100%);
+  background: linear-gradient(90deg, rgb(126, 65, 117) 0%, rgb(120, 124, 183) 0%, rgb(0, 212, 255) 97%, rgb(160, 200, 196) 100%, rgb(75, 39, 168) 100%, rgb(28, 179, 224) 100%);
+}
+
 /*biografia*/
 .biografia {
   display: flex;
@@ -166,6 +173,28 @@ a {
 .noticias img {
   width: 100%;
   position: relative;
+}
+
+/*multimedia*/
+.multimedia {
+  padding: 0 10px;
+}
+
+.carrusel {
+  margin: auto;
+  padding: 5% 0 20%;
+}
+
+@media screen and (max-width: 768px) {
+  .carrusel img {
+    width: 100%;
+  }
+}
+.multimediatitulo {
+  font-size: 40px;
+  padding: 5%;
+  background: rgb(126, 65, 117) linear-gradient(90deg, rgb(126, 65, 117) 0%, rgb(120, 124, 183) 0%, rgb(0, 212, 255) 97%, rgb(160, 200, 196) 100%, rgb(75, 39, 168) 100%, rgb(28, 179, 224) 100%);
+  background: rgb(126, 65, 117) linear-gradient(90deg, rgb(126, 65, 117) 0%, rgb(120, 124, 183) 0%, rgb(0, 212, 255) 97%, rgb(160, 200, 196) 100%, rgb(75, 39, 168) 100%, rgb(28, 179, 224) 100%);
 }
 
 /*discos*/
@@ -253,31 +282,3 @@ a {
   text-decoration: none;
 }
 
-/*multimedia*/
-.multimedia {
-  padding: 0 10px;
-}
-
-.carrusel {
-  margin: auto;
-  padding: 5% 0 20%;
-}
-
-@media screen and (max-width: 768px) {
-  .carrusel img {
-    width: 100%;
-  }
-}
-.multimediatitulo {
-  font-size: 40px;
-  padding: 5%;
-  background: rgb(126, 65, 117) linear-gradient(90deg, rgb(126, 65, 117) 0%, rgb(120, 124, 183) 0%, rgb(0, 212, 255) 97%, rgb(160, 200, 196) 100%, rgb(75, 39, 168) 100%, rgb(28, 179, 224) 100%);
-  background: rgb(126, 65, 117) linear-gradient(90deg, rgb(126, 65, 117) 0%, rgb(120, 124, 183) 0%, rgb(0, 212, 255) 97%, rgb(160, 200, 196) 100%, rgb(75, 39, 168) 100%, rgb(28, 179, 224) 100%);
-}
-
-/*barra navegacion general*/
-.barra-navegacion-general {
-  font-size: 25px;
-  background: rgb(126, 65, 117) linear-gradient(90deg, rgb(126, 65, 117) 0%, rgb(120, 124, 183) 0%, rgb(0, 212, 255) 97%, rgb(160, 200, 196) 100%, rgb(75, 39, 168) 100%, rgb(28, 179, 224) 100%);
-  background: linear-gradient(90deg, rgb(126, 65, 117) 0%, rgb(120, 124, 183) 0%, rgb(0, 212, 255) 97%, rgb(160, 200, 196) 100%, rgb(75, 39, 168) 100%, rgb(28, 179, 224) 100%);
-}/*# sourceMappingURL=style.css.map */
