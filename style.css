@@ -180,6 +180,95 @@ a {
   position: relative;
 }
 
+
+/*formulario*/
+  .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+  .contact-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 5px rgb(0, 0, 0, 0.20);
+}
+  .izquierda{
+    height: 100%;
+    background: url("./fotos/formulario.jpg") no-repeat center;
+     background-size: cover;
+}
+  .derecha{
+    padding: 25px 40px;
+}
+  .formulario{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+  .formulario .h8{
+    padding: 10px;
+    margin: 10px;
+
+}
+ 
+  .fila{
+    width: 80%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid #191c29;
+    background-color: #191c29;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+.fila:hover{
+  background-color: ;
+}
+.fila:focus{
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+  .area{
+    min-height: 150px;
+
+}
+.btn{
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  background-color: #191c29;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+  transition: .3sg;
+}
+  .btn:hover{
+    background-color: ;
+
+}
+ @media screen and (max-width:880px){
+  .contact-box{
+  grid-template-columns: 2fr;
+ }
+ .izquierda{
+  height: 200px;
+ }
+}
+
+
+
+
 /*multimedia*/
 .multimedia {
   padding: 0 10px;
